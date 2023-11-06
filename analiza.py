@@ -5,8 +5,8 @@ df = pd.read_excel('Data.xlsx')
 
 df.fillna(0, inplace=True)
 
-Y = df['SMOKING (Labels)']
-X = df.drop(columns=['SMOKING (Labels)'])
+Y = df['Countries']
+X = df.drop(columns=['Countries'])
 
 
 # statystyki
@@ -43,4 +43,21 @@ for kolumna in X.columns:
     plt.ylabel('Wartości')
     
     plt.savefig(f'boxplots/{kolumna}_boxplot.png')
+    plt.close()
+
+
+# wykresy
+if not os.path.exists('plots'):
+    os.makedirs('plots')
+
+for kolumna in X.columns:
+    plt.figure(figsize = (12,6))
+    plt.bar(Y, X[kolumna])
+    plt.xticks(rotation = 45, ha = 'right')
+    plt.xlabel(Y.name)
+    plt.title(X[kolumna].name)
+    plt.tight_layout()
+    plt.show
+
+    plt.savefig(f'plots/{kolumna}_boxplot.png')
     plt.close()
