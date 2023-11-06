@@ -6,7 +6,7 @@ df = pd.read_excel('Data.xlsx')
 df.fillna(0, inplace=True)
 
 Y = df['Countries']
-X = df.drop(columns=['Countries'])
+X = df.drop(columns=['Country'])
 
 
 # statystyki
