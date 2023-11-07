@@ -5,7 +5,7 @@ df = pd.read_excel('Data.xlsx')
 
 df.fillna(0, inplace=True)
 
-Y = df['Countries']
+Y = df['Country']
 X = df.drop(columns=['Country'])
 
 
