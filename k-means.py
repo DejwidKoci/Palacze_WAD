@@ -10,7 +10,7 @@ X = df.select_dtypes(include = ['float', 'int'])
 X = X.fillna(0)  
 
 
-k = 3 # Liczba klastrów
+k = 30 # Liczba klastrów
 kmeans = KMeans(n_clusters = k)
 kmeans.fit(X)
 

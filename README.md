@@ -10,3 +10,4 @@ Link do danych z Eurostatu: https://ec.europa.eu/eurostat/databrowser/view/hlth_
 - `analiza.py` - kod, w którym policzono wstępne statystyki (wyeksportowane do `statystyki.xlsx`), dodatkowo wykreowano boxploty i wykresy słupkowe, które zostały wyeksportowane do folderów `boxplots` oraz `plots`. Osobiście uważam, że wykresy w lepszej postaci będą wyglądały z excela xd
 - `ward.py` - wstępna implementacja metody Warda
 - `k-means.py` - wstępna implementacja metody k-średnich
+- `quality_model.py` - analiza indeksu Calińskiego i Harabasz
