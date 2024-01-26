@@ -11,4 +11,5 @@ W pracy tej skupiliśmy się na selekcji, wizualizacji zebranych zmiennych dot. 
 - `Data.xlsx` - poprawione dane `Cigarettes.xlsx` wykorzystywane w kodzie Pythona
 - `projekt_WAD.ipynb` - plik Jupyter opisujący krok po kroku algorytm postępowania w analizie skupień z użyciem języka Python
 - `projekt_WAD.html` - wygenerowany raport na podstawie pliku `projekt_WAD.ipynb`
+- `requirements.txt` - wymagane biblioteki do kompilacji kodu
 
