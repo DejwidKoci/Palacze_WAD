@@ -1,15 +1,14 @@
-# Analiza skupień krajów Europy pod względem liczby palaczy
+# Cluster analysis of European countries by number of smokers
 
-Link do danych z Eurostatu: https://ec.europa.eu/eurostat/databrowser/view/hlth_ehis_sk3u/default/table?lang=en
+Link to data from Eurostat: https://ec.europa.eu/eurostat/databrowser/view/hlth_ehis_sk3u/default/table?lang=en
 
-W tym projekcie dokonujemy analizy skupień krajów Europy pod względem nawyku  palenia papierosów przez obywateli w 2019 roku. Chcemy określić, które państwa mają zbliżone właściwości statystyczne w zakresie zwyczajów palenia, dzieląc je na klastry.
-W pracy tej skupiliśmy się na selekcji, wizualizacji zebranych zmiennych dot. częstości palenia w krajach europejskich, opisaniu ich za pomocą statystyk opisowych, standaryzacji i poddaniu zabiegom klasteryzacji przy użyciu modeli z biblioteki sci-kit learn języka Python. Następnie jakość podziałów została oceniona metodą wizualną, jak i szeregiem miar opisujących jakość klastrowania, by na koniec wybrać najskuteczniejszą metodę dzielenia państw europejskich na skupienia z podobnymi nawykami odnośnie spożywania wyrobów tytoniowych wewnątrz klastrów. Wybrany podział dokonany został przy użyciu optymalnej metody klastrowania, jak i odpowiedniej liczby klastrów. Na koniec podejmujemy próbę interpretacji wyników, żeby ocenić merytoryczny skład skupień.
+In this project, we perform a cluster analysis of European countries in terms of citizens' smoking habits in 2019. We want to identify which countries have similar statistical characteristics in terms of smoking habits by dividing them into clusters.
+In this work, we focused on selection, visualising the collected variables on smoking prevalence in European countries, describing them with descriptive statistics, standardising them and subjecting them to clustering procedures using models from the sci-kit learn library of the Python language. The quality of the divisions was then assessed using a visual method, as well as a series of measures describing the quality of the clustering, to finally select the most effective method for dividing European countries into clusters with similar tobacco consumption habits within the clusters. The chosen division was made using an optimal clustering method as well as an appropriate number of clusters. Finally, we attempt to interpret the results to assess the substantive composition of the clusters.
 
 
-## Pliki:
-- `Cigarettes.xlsx` - dane z eurostatu w oryginalnej postaci z opisem struktury
-- `Data.xlsx` - poprawione dane `Cigarettes.xlsx` wykorzystywane w kodzie Pythona
-- `projekt_WAD.ipynb` - plik Jupyter opisujący krok po kroku algorytm postępowania w analizie skupień z użyciem języka Python
-- `projekt_WAD.html` - wygenerowany raport na podstawie pliku `projekt_WAD.ipynb`
-- `requirements.txt` - wymagane biblioteki do kompilacji kodu
+## Files:
+- `Cigarettes.xlsx` - data from eurostat in original form with structure description
+- `Data.xlsx` - corrected data of `Cigarettes.xlsx` used in Python code
+- `project_WAD.ipynb` - Jupyter file describing step-by-step algorithm for proceeding with cluster analysis using Python language
+- `requirements.txt` - required libraries to compile the code
 
